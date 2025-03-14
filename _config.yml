@@ -1,62 +1,32 @@
-site: Halangdon
-url: #yoururl
-title: Halangdon
-description: Mga himaya sa hunahuna.
-twitter:
-  username: #yourusername
-  card: summary
-  creator: #yourusername
-author:
-  twitter: #yourusername
-  name: #yourusername
-  avatar:
-  email: #youremail
-  url: #yoururl
-permalink: pretty
+# Basic site settings
+title: HalangdoN
+description: >- 
+  Mga himaya sa huna huna.
+baseurl: "" # the subpath of your site, e.g. /blog or leave empty for root
+url: "https://halangdon.github.io" # your site's base URL, e.g. https://username.github.io
+twitter_username: jekyllrb
+github_username: jekyll
 
-baseurl: ""
-
-highlighter: none
-
-exclude:
-  - .jekyll-cache
-  
-compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
-
-sass:
-  sass_dir:          _sass
-  style:            :compressed
-
+# Build settings
 plugins:
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-sitemap  
+  - jekyll-feed
+
+markdown: kramdown
 
 collections:
-  pages:
+  p:
     output: true
-    permalink: /:name
-  posts:
-    output: true
-    permalink: /:year/:month/:day/:slug
-  
+
+
+# Permalinks for posts and pages
+# Note: The `permalink` setting for posts should be in individual pages/posts' front matter, not here in the config.
+# Example for posts:
+# permalink: /:year/:month/:day/:title/
+
+# Optional: Default page layouts
 defaults:
-  -
-    scope:
-      path: ""
+  - scope:
+      path: "" # applies to all pages
     values:
-      layout: "default"
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
+      layout: "base" # Default layout for all pages (you can change this to `page` or any other layout)
+
