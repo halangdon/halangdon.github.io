@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Family Tree Sample</title>
+
+  <!-- Treant.js CSS -->
+  <link rel="stylesheet" href="https://fperucic.github.io/treant-js/Treant.css">
+  <link rel="stylesheet" href="https://fperucic.github.io/treant-js/examples/basic-example/basic-example.css">
+
+  <!-- Treant.js dependencies -->
+  <script src="https://fperucic.github.io/treant-js/vendor/raphael.js"></script>
+  <script src="https://fperucic.github.io/treant-js/Treant.js"></script>
+
+  <style>
+    body {
+      background: #f5f6fa;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 2rem;
+    }
+
+    h1 {
+      margin-bottom: 2rem;
+      color: #2c3e50;
+    }
+
+    #tree-simple {
+      width: 100%;
+      min-height: 700px;
+      margin: 0 auto;
+    }
+
+    /* Node styles per generation */
+    .node-grandparent {
+      border: 2px solid #34495e;
+      background-color: #dce6f1;
+      border-radius: 10px;
+      padding: 10px;
+      width: 140px;
+      text-align: center;
+    }
+
+    .node-parent {
+      border: 2px solid #27ae60;
+      background-color: #d4f7dc;
+      border-radius: 10px;
+      padding: 10px;
+      width: 140px;
+      text-align: center;
+    }
+
+    .node-child {
+      border: 2px solid #e67e22;
+      background-color: #ffe6d4;
+      border-radius: 10px;
+      padding: 10px;
+      width: 140px;
+      text-align: center;
+    }
+
+    .node img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto 5px auto;
+      object-fit: cover;
+    }
+
+    .node-name {
+      font-weight: bold;
+      color: #2c3e50;
+    }
+
+    .node:hover {
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+
+    .treant .node {
+      cursor: pointer; /* clickable for collapsible */
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Family Tree Sample</h1>
+
+  <!-- Tree Container -->
+  <div class="chart" id="tree-simple"></div>
+
+  <script>
+    // Family tree structure with collapsible nodes and tooltips
+    const chart_config = {
+      chart: {
+        container: "#tree-simple",
+        rootOrientation: "NORTH",
+        nodeAlign: "BOTTOM",
+        connectors: { type: "step" },
+        animation: { nodeAnimation: "easeOutBounce", connectorsAnimation: "bounce" },
+        collapsible: true
+      },
+
+      nodeStructure: {
+        text: { name: "Grandparent", title: "Born: 1940" },
+        HTMLclass: "node-grandparent",
+        image: "https://via.placeholder.com/60",
+        children: [
+          {
+            text: { name: "Parent 1", title: "Born: 1965" },
+            HTMLclass: "node-parent",
+            image: "https://via.placeholder.com/60",
+            children: [
+              { text: { name: "Child 1", title: "Born: 1990" }, HTMLclass: "node-child", image: "https://via.placeholder.com/60" },
+              { text: { name: "Child 2", title: "Born: 1992" }, HTMLclass: "node-child", image: "https://via.placeholder.com/60" }
+            ]
+          },
+          {
+            text: { name: "Parent 2", title: "Born: 1968" },
+            HTMLclass: "node-parent",
+            image: "https://via.placeholder.com/60",
+            children: [
+              { text: { name: "Child 3", title: "Born: 1995" }, HTMLclass: "node-child", image: "https://via.placeholder.com/60" },
+              { text: { name: "Child 4", title: "Born: 1998" }, HTMLclass: "node-child", image: "https://via.placeholder.com/60" }
+            ]
+          }
+        ]
+      }
+    };
+
+    // Initialize tree
+    const myTree = new Treant(chart_config);
+
+    // Add images dynamically inside nodes
+    function addImages() {
+      const nodes = document.querySelectorAll('.node');
+      nodes.forEach(node => {
+        const imgUrl = node.getAttribute('data-image');
+        if (imgUrl && !node.querySelector('img')) {
+          const img = document.createElement('img');
+          img.src = imgUrl.split('?')[0]; // ensure clean URL
+          node.insertBefore(img, node.firstChild);
+        }
+
+        // Add tooltip from title attribute
+        const titleText = node.getAttribute('data-title');
+        if (titleText) {
+          node.setAttribute('title', titleText);
+        }
+      });
+    }
+
+    // Delay to ensure Treant.js renders nodes
+    setTimeout(addImages, 500);
+  </script>
+</body>
+</html>

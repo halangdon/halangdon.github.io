@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shop | Bulma Demo</title>
+  <!-- Bulma with local fallback -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css"
+    data-fallback="/assets/css/bulma.min.css"
+    onerror="this.onerror=null;this.href=this.dataset.fallback">
+
+  <!-- ✅ Favicon (Jekyll-relative path) -->
+  <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .shop-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+    }
+
+    /* ✅ Use 1 column if screen width is 480px or less */
+    @media (max-width: 480px) {
+      .shop-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (min-width: 1200px) {
+      .shop-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    .card {
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-image figure {
+      height: 200px;
+      overflow: hidden;
+    }
+
+    .card-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .price {
+      font-weight: bold;
+      color: #e63946;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <nav class="navbar is-light" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item has-text-weight-bold" href="/">🏠 Home</a>
+    </div>
+  </nav>
+
+  <section class="hero is-small is-info">
+    <div class="hero-body has-text-centered">
+      <p class="title">Shop Demo</p>
+      <p class="subtitle">Responsive Bulma Grid with Cards</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="shop-grid">
+
+        <div class="card">
+          <div class="card-image">
+            <figure class="image">
+              <img src="https://picsum.photos/400/300?random=1" alt="Product 1">
+            </figure>
+          </div>
+          <div class="card-content has-text-centered">
+            <p class="title is-5">Product 1</p>
+            <p class="price">$11.99</p>
+            <button class="button is-link is-small mt-2">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-image">
+            <figure class="image">
+              <img src="https://picsum.photos/400/300?random=2" alt="Product 2">
+            </figure>
+          </div>
+          <div class="card-content has-text-centered">
+            <p class="title is-5">Product 2</p>
+            <p class="price">$13.99</p>
+            <button class="button is-link is-small mt-2">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-image">
+            <figure class="image">
+              <img src="https://picsum.photos/400/300?random=3" alt="Product 3">
+            </figure>
+          </div>
+          <div class="card-content has-text-centered">
+            <p class="title is-5">Product 3</p>
+            <p class="price">$15.99</p>
+            <button class="button is-link is-small mt-2">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-image">
+            <figure class="image">
+              <img src="https://picsum.photos/400/300?random=4" alt="Product 4">
+            </figure>
+          </div>
+          <div class="card-content has-text-centered">
+            <p class="title is-5">Product 4</p>
+            <p class="price">$17.99</p>
+            <button class="button is-link is-small mt-2">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-image">
+            <figure class="image">
+              <img src="https://picsum.photos/400/300?random=5" alt="Product 5">
+            </figure>
+          </div>
+          <div class="card-content has-text-centered">
+            <p class="title is-5">Product 5</p>
+            <p class="price">$19.99</p>
+            <button class="button is-link is-small mt-2">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-image">
+            <figure class="image">
+              <img src="https://picsum.photos/400/300?random=6" alt="Product 6">
+            </figure>
+          </div>
+          <div class="card-content has-text-centered">
+            <p class="title is-5">Product 6</p>
+            <p class="price">$21.99</p>
+            <button class="button is-link is-small mt-2">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-image">
+            <figure class="image">
+              <img src="https://picsum.photos/400/300?random=7" alt="Product 7">
+            </figure>
+          </div>
+          <div class="card-content has-text-centered">
+            <p class="title is-5">Product 7</p>
+            <p class="price">$23.99</p>
+            <button class="button is-link is-small mt-2">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-image">
+            <figure class="image">
+              <img src="https://picsum.photos/400/300?random=8" alt="Product 8">
+            </figure>
+          </div>
+          <div class="card-content has-text-centered">
+            <p class="title is-5">Product 8</p>
+            <p class="price">$25.99</p>
+            <button class="button is-link is-small mt-2">Add to Cart</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p><strong>Bulma Shop Demo</strong> by <a href="https://github.com/halangdon">halangdon</a></p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
