@@ -4,8 +4,9 @@ title: MLBB Pricing
 permalink: /mlbb/
 ---
 
-| MLBB Diamond Pricing & Profit |
-| :--- |
+
+| Pack | Cost | Selling Price (Profit) |
+| :--- | :--- | :--- |
 {% for pack in site.data.dias %}
-| **{{ pack.diamonds }}**<br>• Cost (Base+VAT): {{ pack.cost }}<br>{% for profit in pack.profits %}• Profit at nearest {{ profit.target }} ({{ profit.price }}): **{{ profit.value }}**<br>{% endfor %} |
+| **{{ pack.diamonds }}** | {{ pack.cost }} | {% for item in pack.profits %}₱{{ item.target }} ({{ item.value }})<br>{% endfor %} |
 {% endfor %}
