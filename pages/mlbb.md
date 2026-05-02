@@ -7,5 +7,5 @@ permalink: /mlbb/
 | MLBB Diamond Pricing & Profit |
 | :--- |
 {% for pack in site.data.dias %}
-| **{{ pack[1] }}**<br>• {{ pack[2] | replace: ":", ": " }}<br>{% for entry in pack offset:3 %}• {{ entry[0] | capitalize }}: {{ entry[1] }}<br>{% endfor %} |
+| **{{ pack.diamonds }}**<br>• Cost (Base+VAT): {{ pack.cost }}<br>{% for profit in pack.profits %}• Profit at near {{ profit.target }}: {{ profit.value }}<br>{% endfor %} |
 {% endfor %}
