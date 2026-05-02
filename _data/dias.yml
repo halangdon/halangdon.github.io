@@ -1,210 +1,92 @@
 - diamonds: "11 diamonds"
   cost: "₱11.20"
   profits:
-    - target: 20
-      value: "₱8.80"
-    - target: 30
-      value: "₱18.80"
-    - target: 40
-      value: "₱28.80"
-    - target: 50
-      value: "₱38.80"
-    - target: 60
-      value: "₱48.80"
-    - target: 70
-      value: "₱58.80"
-    - target: 80
-      value: "₱68.80"
-    - target: 99
-      value: "₱87.80"
-    - target: 100
-      value: "₱88.80"
+    - { target: 20, value: "₱8.80" }
+    - { target: 30, value: "₱18.80" }
+    - { target: 40, value: "₱28.80" }
+    - { target: 50, value: "₱38.80" }
+    - { target: 60, value: "₱48.80" }
+    - { target: 70, value: "₱58.80" }
+    - { target: 80, value: "₱68.80" }
+    - { target: 90, value: "₱78.80" }
+    - { target: 100, value: "₱88.80" }
 - diamonds: "22 diamonds"
   cost: "₱22.40"
   profits:
-    - target: 20
-      value: "₱-2.40"
-    - target: 30
-      value: "₱7.60"
-    - target: 40
-      value: "₱17.60"
-    - target: 50
-      value: "₱27.60"
-    - target: 60
-      value: "₱37.60"
-    - target: 70
-      value: "₱47.60"
-    - target: 80
-      value: "₱57.60"
-    - target: 99
-      value: "₱76.60"
-    - target: 100
-      value: "₱77.60"
+    - { target: 30, value: "₱7.60" }
+    - { target: 40, value: "₱17.60" }
+    - { target: 50, value: "₱27.60" }
+    - { target: 60, value: "₱37.60" }
+    - { target: 70, value: "₱47.60" }
+    - { target: 80, value: "₱57.60" }
+    - { target: 90, value: "₱67.60" }
+    - { target: 100, value: "₱77.60" }
 - diamonds: "56 diamonds"
   cost: "₱56.00"
   profits:
-    - target: 20
-      value: "₱-36.00"
-    - target: 30
-      value: "₱-26.00"
-    - target: 40
-      value: "₱-16.00"
-    - target: 50
-      value: "₱-6.00"
-    - target: 60
-      value: "₱4.00"
-    - target: 70
-      value: "₱14.00"
-    - target: 80
-      value: "₱24.00"
-    - target: 99
-      value: "₱43.00"
-    - target: 100
-      value: "₱44.00"
+    - { target: 60, value: "₱4.00" }
+    - { target: 70, value: "₱14.00" }
+    - { target: 80, value: "₱24.00" }
+    - { target: 90, value: "₱34.00" }
+    - { target: 100, value: "₱44.00" }
 - diamonds: "112 diamonds"
   cost: "₱112.00"
   profits:
-    - target: 20
-      value: "₱-92.00"
-    - target: 30
-      value: "₱-82.00"
-    - target: 40
-      value: "₱-72.00"
-    - target: 50
-      value: "₱-62.00"
-    - target: 60
-      value: "₱-52.00"
-    - target: 70
-      value: "₱-42.00"
-    - target: 80
-      value: "₱-32.00"
-    - target: 99
-      value: "₱-13.00"
-    - target: 100
-      value: "₱-12.00"
+    - { target: 120, value: "₱8.00" }
+    - { target: 130, value: "₱18.00" }
+    - { target: 140, value: "₱28.00" }
+    - { target: 150, value: "₱38.00" }
+    - { target: 160, value: "₱48.00" }
+    - { target: 170, value: "₱58.00" }
+    - { target: 180, value: "₱68.00" }
+    - { target: 190, value: "₱78.00" }
+    - { target: 200, value: "₱88.00" }
 - diamonds: "223 diamonds"
   cost: "₱224.00"
   profits:
-    - target: 20
-      value: "₱-204.00"
-    - target: 30
-      value: "₱-194.00"
-    - target: 40
-      value: "₱-184.00"
-    - target: 50
-      value: "₱-174.00"
-    - target: 60
-      value: "₱-164.00"
-    - target: 70
-      value: "₱-154.00"
-    - target: 80
-      value: "₱-144.00"
-    - target: 99
-      value: "₱-125.00"
-    - target: 100
-      value: "₱-124.00"
+    - { target: 230, value: "₱6.00" }
+    - { target: 240, value: "₱16.00" }
+    - { target: 250, value: "₱26.00" }
+    - { target: 260, value: "₱36.00" }
+    - { target: 270, value: "₱46.00" }
+    - { target: 280, value: "₱56.00" }
+    - { target: 290, value: "₱66.00" }
+    - { target: 300, value: "₱76.00" }
 - diamonds: "336 diamonds"
   cost: "₱336.00"
   profits:
-    - target: 20
-      value: "₱-316.00"
-    - target: 30
-      value: "₱-306.00"
-    - target: 40
-      value: "₱-296.00"
-    - target: 50
-      value: "₱-286.00"
-    - target: 60
-      value: "₱-276.00"
-    - target: 70
-      value: "₱-266.00"
-    - target: 80
-      value: "₱-256.00"
-    - target: 99
-      value: "₱-237.00"
-    - target: 100
-      value: "₱-236.00"
+    - { target: 340, value: "₱4.00" }
+    - { target: 350, value: "₱14.00" }
+    - { target: 360, value: "₱24.00" }
+    - { target: 370, value: "₱34.00" }
+    - { target: 380, value: "₱44.00" }
+    - { target: 390, value: "₱54.00" }
+    - { target: 400, value: "₱64.00" }
 - diamonds: "570 diamonds"
   cost: "₱560.00"
   profits:
-    - target: 20
-      value: "₱-540.00"
-    - target: 30
-      value: "₱-530.00"
-    - target: 40
-      value: "₱-520.00"
-    - target: 50
-      value: "₱-510.00"
-    - target: 60
-      value: "₱-500.00"
-    - target: 70
-      value: "₱-490.00"
-    - target: 80
-      value: "₱-480.00"
-    - target: 99
-      value: "₱-461.00"
-    - target: 100
-      value: "₱-460.00"
+    - { target: 570, value: "₱10.00" }
+    - { target: 580, value: "₱20.00" }
+    - { target: 590, value: "₱30.00" }
+    - { target: 600, value: "₱40.00" }
 - diamonds: "1,163 diamonds"
   cost: "₱1,120.00"
   profits:
-    - target: 20
-      value: "₱-1,100.00"
-    - target: 30
-      value: "₱-1,090.00"
-    - target: 40
-      value: "₱-1,080.00"
-    - target: 50
-      value: "₱-1,070.00"
-    - target: 60
-      value: "₱-1,060.00"
-    - target: 70
-      value: "₱-1,050.00"
-    - target: 80
-      value: "₱-1,040.00"
-    - target: 99
-      value: "₱-1,021.00"
-    - target: 100
-      value: "₱-1,020.00"
+    - { target: 1130, value: "₱10.00" }
+    - { target: 1140, value: "₱20.00" }
+    - { target: 1150, value: "₱30.00" }
+    - { target: 1160, value: "₱40.00" }
 - diamonds: "2,398 diamonds"
   cost: "₱2,240.00"
   profits:
-    - target: 20
-      value: "₱-2,220.00"
-    - target: 30
-      value: "₱-2,210.00"
-    - target: 40
-      value: "₱-2,200.00"
-    - target: 50
-      value: "₱-2,190.00"
-    - target: 60
-      value: "₱-2,180.00"
-    - target: 70
-      value: "₱-2,170.00"
-    - target: 80
-      value: "₱-2,160.00"
-    - target: 99
-      value: "₱-2,141.00"
-    - target: 100
-      value: "₱-2,140.00"
+    - { target: 2250, value: "₱10.00" }
+    - { target: 2260, value: "₱20.00" }
+    - { target: 2270, value: "₱30.00" }
+    - { target: 2280, value: "₱40.00" }
 - diamonds: "6,042 diamonds"
   cost: "₱5,600.00"
   profits:
-    - target: 20
-      value: "₱-5,580.00"
-    - target: 30
-      value: "₱-5,570.00"
-    - target: 40
-      value: "₱-5,560.00"
-    - target: 50
-      value: "₱-5,550.00"
-    - target: 60
-      value: "₱-5,540.00"
-    - target: 70
-      value: "₱-5,530.00"
-    - target: 80
-      value: "₱-5,520.00"
-    - target: 99
-      value: "₱-5,501.00"
-    - target: 100
-      value: "₱-5,500.00"
+    - { target: 5610, value: "₱10.00" }
+    - { target: 5620, value: "₱20.00" }
+    - { target: 5630, value: "₱30.00" }
+    - { target: 5640, value: "₱40.00" }
