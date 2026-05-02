@@ -1,5 +1,9 @@
+---
+layout: page
+title: MLBB Pricing
+permalink: /mlbb/
+---
 | MLBB Diamond Pricing & Profit Breakdown |
-| :--- |
 | Row 1
 - 11 Diamonds
 - Base Price: ₱10.00
