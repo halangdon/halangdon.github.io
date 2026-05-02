@@ -1,0 +1,120 @@
+- pack 1
+  - 11 diamonds
+  - cost: ₱11.20
+  - profit at near 20: ₱8.80
+  - profit at near 30: ₱18.80
+  - profit at near 40: ₱28.80
+  - profit at near 50: ₱38.80
+  - profit at near 60: ₱48.80
+  - profit at near 70: ₱58.80
+  - profit at near 80: ₱68.80
+  - profit at near 99: ₱87.80
+  - profit at near 100: ₱88.80
+- pack 2
+  - 22 diamonds
+  - cost: ₱22.40
+  - profit at near 20: ₱-2.40
+  - profit at near 30: ₱7.60
+  - profit at near 40: ₱17.60
+  - profit at near 50: ₱27.60
+  - profit at near 60: ₱37.60
+  - profit at near 70: ₱47.60
+  - profit at near 80: ₱57.60
+  - profit at near 99: ₱76.60
+  - profit at near 100: ₱77.60
+- pack 3
+  - 56 diamonds
+  - cost: ₱56.00
+  - profit at near 20: ₱-36.00
+  - profit at near 30: ₱-26.00
+  - profit at near 40: ₱-16.00
+  - profit at near 50: ₱-6.00
+  - profit at near 60: ₱4.00
+  - profit at near 70: ₱14.00
+  - profit at near 80: ₱24.00
+  - profit at near 99: ₱43.00
+  - profit at near 100: ₱44.00
+- pack 4
+  - 112 diamonds
+  - cost: ₱112.00
+  - profit at near 20: ₱-92.00
+  - profit at near 30: ₱-82.00
+  - profit at near 40: ₱-72.00
+  - profit at near 50: ₱-62.00
+  - profit at near 60: ₱-52.00
+  - profit at near 70: ₱-42.00
+  - profit at near 80: ₱-32.00
+  - profit at near 99: ₱-13.00
+  - profit at near 100: ₱-12.00
+- pack 5
+  - 223 diamonds
+  - cost: ₱224.00
+  - profit at near 20: ₱-204.00
+  - profit at near 30: ₱-194.00
+  - profit at near 40: ₱-184.00
+  - profit at near 50: ₱-174.00
+  - profit at near 60: ₱-164.00
+  - profit at near 70: ₱-154.00
+  - profit at near 80: ₱-144.00
+  - profit at near 99: ₱-125.00
+  - profit at near 100: ₱-124.00
+- pack 6
+  - 336 diamonds
+  - cost: ₱336.00
+  - profit at near 20: ₱-316.00
+  - profit at near 30: ₱-306.00
+  - profit at near 40: ₱-296.00
+  - profit at near 50: ₱-286.00
+  - profit at near 60: ₱-276.00
+  - profit at near 70: ₱-266.00
+  - profit at near 80: ₱-256.00
+  - profit at near 99: ₱-237.00
+  - profit at near 100: ₱-236.00
+- pack 7
+  - 570 diamonds
+  - cost: ₱560.00
+  - profit at near 20: ₱-540.00
+  - profit at near 30: ₱-530.00
+  - profit at near 40: ₱-520.00
+  - profit at near 50: ₱-510.00
+  - profit at near 60: ₱-500.00
+  - profit at near 70: ₱-490.00
+  - profit at near 80: ₱-480.00
+  - profit at near 99: ₱-461.00
+  - profit at near 100: ₱-460.00
+- pack 8
+  - 1,163 diamonds
+  - cost: ₱1,120.00
+  - profit at near 20: ₱-1,100.00
+  - profit at near 30: ₱-1,090.00
+  - profit at near 40: ₱-1,080.00
+  - profit at near 50: ₱-1,070.00
+  - profit at near 60: ₱-1,060.00
+  - profit at near 70: ₱-1,050.00
+  - profit at near 80: ₱-1,040.00
+  - profit at near 99: ₱-1,021.00
+  - profit at near 100: ₱-1,020.00
+- pack 9
+  - 2,398 diamonds
+  - cost: ₱2,240.00
+  - profit at near 20: ₱-2,220.00
+  - profit at near 30: ₱-2,210.00
+  - profit at near 40: ₱-2,200.00
+  - profit at near 50: ₱-2,190.00
+  - profit at near 60: ₱-2,180.00
+  - profit at near 70: ₱-2,170.00
+  - profit at near 80: ₱-2,160.00
+  - profit at near 99: ₱-2,141.00
+  - profit at near 100: ₱-2,140.00
+- pack 10
+  - 6,042 diamonds
+  - cost: ₱5,600.00
+  - profit at near 20: ₱-5,580.00
+  - profit at near 30: ₱-5,570.00
+  - profit at near 40: ₱-5,560.00
+  - profit at near 50: ₱-5,550.00
+  - profit at near 60: ₱-5,540.00
+  - profit at near 70: ₱-5,530.00
+  - profit at near 80: ₱-5,520.00
+  - profit at near 99: ₱-5,501.00
+  - profit at near 100: ₱-5,500.00
